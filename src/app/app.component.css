@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  height: 20vh;
+  background-color: blue;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.child {
+  position: relative;
+  width: 20%;
+  height: 20vh;
+  background: lightblue;
+  flex-grow: 0;
+}
